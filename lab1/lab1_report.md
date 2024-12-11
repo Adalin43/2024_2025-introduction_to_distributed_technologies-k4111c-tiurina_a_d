@@ -18,4 +18,6 @@ Date of finished:
 Устанавдиваем Docker версии 19.03.1 на рабочий компьютер (Рис. 1).  
 ![Screenshot 1](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/ЛР-1.1.png)  
                               Рисунок 1 - Docker версии 19.03.1  
-Далее в соотвествии с инструкцией устаналиваем Minikube.
+Далее в соотвествии с инструкцией устаналиваем Minikube. После установки необходимо развернуть minikube cluster. Используем команду  
+                minikube start             
+После запуска minikube cluster используем команду minikube kubectl, которая позволяет взаимодействовать с k8s используя команду (Рис. 2).  
