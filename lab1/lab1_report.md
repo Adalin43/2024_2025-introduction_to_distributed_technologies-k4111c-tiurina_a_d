@@ -16,4 +16,5 @@ Date of finished:
 Цель лабораторной работы заключается в ознакомлении с инструментами Minikube и Docker, реализации своего первого "пода".  
 **Ход работы.**  
 Устанавдиваем Docker версии 19.03.1 на рабочий компьютер.  
+![Screenshot 1](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/ЛР-1.1.png)
 Далее в соотвествии с инструкцией устаналиваем Minikube.
