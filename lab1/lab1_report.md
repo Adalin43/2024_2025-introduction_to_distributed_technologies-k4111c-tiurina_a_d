@@ -30,7 +30,7 @@ Date of finished:
 Далее используем команду ".\vault.exe server -dev". Результаты представлены на рисунках 5, 6.  
 ![Screenshot 5](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/1.6.jpg)   
 Рисунок 5 - Результат команды .\vault.exe server -dev  
-![Screenshot 6]()   
+![Screenshot 6](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/1.7.jpg)   
 Рисунок 6 - Результат команды .\vault.exe server -dev (продолжение)  
 
 Unseal Key: s3LHmncxjkZs4kik4BXzyIhmYaiExcA0ccPHCAVfV6I=  
