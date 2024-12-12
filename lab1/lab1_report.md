@@ -28,7 +28,7 @@ Date of finished:
 ![Screenshot 4](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/1.4.jpg)  
 Рисунок 4 - Использование команд minikube start и minikube kubectl соответственно  
 Далее используем команду ".\vault.exe server -dev". Результаты представлены на рисунках 5, 6.  
-![Screenshot 5]()   
+![Screenshot 5](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/1.6.jpg)   
 Рисунок 5 - Результат команды .\vault.exe server -dev  
 ![Screenshot 6]()   
 Рисунок 6 - Результат команды .\vault.exe server -dev (продолжение)  
