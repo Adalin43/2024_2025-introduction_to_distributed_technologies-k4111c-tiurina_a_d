@@ -10,9 +10,9 @@ Date of finished:
 
 **Лабораторная работа №1.  
 Установка Docker и Minikube, мой первый манифест.**  
-Описание.   
+**Описание.**    
 Это первая лабораторная работа, в которой тестируется Docker, устанавливается Minikube и реализуется первый "под".  
-Цель работы.   
+**Цель работы.**    
 Цель лабораторной работы заключается в ознакомлении с инструментами Minikube и Docker, реализации своего первого "пода".  
 **Ход работы.**  
 Устанавдиваем Docker версии 19.03.1 на рабочий компьютер (Рис. 1).  
@@ -20,8 +20,10 @@ Date of finished:
                               Рисунок 1 - Docker версии 19.03.1  
 Далее в соотвествии с инструкцией устаналиваем Minikube. После установки необходимо развернуть minikube cluster. Скачиваем Vault, вводим команду ".\vault.exe" (Рис. 2).
 ![Screenshot 2](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/1.3.jpg)  
-Рисунок 2 - Выполнение команды .\vault.exe  
-Используем команду minikube start, далее после запуска minikube cluster используем команду minikube kubectl, которая позволяет взаимодействовать с k8s (Рис. 3).  
-![Screenshot 3](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/1.4.jpg)  
-Рисунок 3 - Использование команд minikube start и minikube kubectl соответственно
+Рисунок 2 - Выполнение команды .\vault.exe   
+Добавляем путь C:\Users\Dns\Desktop\vault_1 в переменную среды PATH (Рис. 3).  
+Рисунок 3 - Доавление пути в переменную среды PATH
+Используем команду minikube start, далее после запуска minikube cluster используем команду minikube kubectl, которая позволяет взаимодействовать с k8s (Рис. 4).  
+![Screenshot 4](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/1.4.jpg)  
+Рисунок 4 - Использование команд minikube start и minikube kubectl соответственно
 
