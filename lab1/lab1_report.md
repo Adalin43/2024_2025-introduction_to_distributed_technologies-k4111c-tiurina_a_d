@@ -37,7 +37,7 @@ Unseal Key: s3LHmncxjkZs4kik4BXzyIhmYaiExcA0ccPHCAVfV6I=
 Root Token: hvs.z30D3WdviqIyp4qowYVZ8TjN  
 
 В PowerShell используем команды "$env:VAULT_ADDR="http://127.0.0.1:8200" и ".\vault.exe status" (Рис. 7).   
-![Screenshot 7]()   
+![Screenshot 7](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/1.9.jpg)   
 Рисунок 7 - Использование команд $env:VAULT_ADDR="http://127.0.0.1:8200 и .\vault.exe status  
 В браузере вводим "http://localhost:8200" и вводим сгенерированный ранее Token (Рис. 8).  
 ![Screenshot 8]()   
