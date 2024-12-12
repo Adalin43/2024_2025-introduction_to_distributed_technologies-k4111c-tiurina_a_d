@@ -43,5 +43,5 @@ Root Token: hvs.z30D3WdviqIyp4qowYVZ8TjN
 ![Screenshot 8](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/1.10.jpg)   
 Рисунок 8 - Ввод сгенерированного Token   
 Из рисунка 9 видно, что вход успешно осуществлен.  
-![Screenshot 9]()  
+![Screenshot 9](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/1.11.jpg)  
 Риунок 9 - Успешный вход  
