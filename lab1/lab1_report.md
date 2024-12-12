@@ -19,6 +19,6 @@ Date of finished:
 ![Screenshot 1](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/ЛР-1.1.png)  
                               Рисунок 1 - Docker версии 19.03.1  
 Далее в соотвествии с инструкцией устаналиваем Minikube. После установки необходимо развернуть minikube cluster. Используем команду minikube start, далее после запуска minikube cluster используем команду minikube kubectl, которая позволяет взаимодействовать с k8s (Рис. 2).  
-![Screenshot 2](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/ЛР-1.2.jpg)  
+![Screenshot 2](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/1.4.jpg)  
 Рисунок 2 - Использование команд minikube start и minikube kubectl соответственно
 
