@@ -26,5 +26,17 @@ Date of finished:
 Рисунок 3 - Доавление пути в переменную среды PATH  
 Используем команду minikube start, далее после запуска minikube cluster используем команду minikube kubectl, которая позволяет взаимодействовать с k8s (Рис. 4).  
 ![Screenshot 4](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/1.4.jpg)  
-Рисунок 4 - Использование команд minikube start и minikube kubectl соответственно
+Рисунок 4 - Использование команд minikube start и minikube kubectl соответственно  
+Далее используем команду ".\vault.exe server -dev". Результаты представлены на рисунках 5, 6.  
+Рисунок 5 - Результат команды .\vault.exe server -dev  
+Рисунок 6 - Результат команды .\vault.exe server -dev (продолжение)  
 
+Unseal Key: s3LHmncxjkZs4kik4BXzyIhmYaiExcA0ccPHCAVfV6I=  
+Root Token: hvs.z30D3WdviqIyp4qowYVZ8TjN  
+
+В PowerShell используем команды "$env:VAULT_ADDR="http://127.0.0.1:8200" и ".\vault.exe status" (Рис. 7).   
+Рисунок 7 - Использование команд $env:VAULT_ADDR="http://127.0.0.1:8200 и .\vault.exe status  
+В браузере вводим "http://localhost:8200" и вводим сгенерированный ранее Token (Рис. 8).  
+Рисунок 8 - Ввод сгенерированного Token  
+Из рисунка 9 видно, что вход успешно осуществлен.  
+Риунок 9 - Успешный вход  
