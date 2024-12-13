@@ -3,10 +3,10 @@ kind: Pod
 metadata:
 	name: vault
 	labels:
-		name: vault
+	env: dev
 spec:
 	containers:
 	- name: vault
-	image: harishop/vault:latest
+	image: harishop/vault
 	ports:
 	- containerPort: 8200
