@@ -25,7 +25,7 @@ Date of finished:
 ![Screenshot 3](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/3.jpg)   
 Рисунок 3 - Создание контейнера на основе образа  
 Проверяем, что контейнер был корректно создан (Рис. 4).  
-![Screenshot 4]()    
+![Screenshot 4](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/4.jpg)    
 Рисунок 4 - Проверка корректного создания контейнера  
 
 
