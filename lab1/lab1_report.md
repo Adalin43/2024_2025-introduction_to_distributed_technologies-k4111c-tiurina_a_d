@@ -27,9 +27,12 @@ Date of finished:
 Проверяем, что контейнер был корректно создан (Рис. 4).  
 ![Screenshot 4](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/4.jpg)    
 Рисунок 4 - Проверка корректного создания контейнера   
-Создаем yaml-файл для развертывания пода с полученным образом (Рис. 5).  
+Создаем файл laboratory1.yaml для развертывания пода с полученным образом (Рис. 5).  
 ![Screenshot 5](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/5.jpg)   
 Рисунок 5 - Написание манифеста  
+Применяем манифест, используя команду kubectl apply -f laboratory1.yaml (Рис. 6).  
+![Screenshot 6]()  
+Рисунок 6 - Применение манифеста  
 
 
 Далее в соотвествии с инструкцией устаналиваем Minikube. После установки необходимо развернуть minikube cluster. Скачиваем Vault, вводим команду ".\vault.exe" (Рис. 2).
