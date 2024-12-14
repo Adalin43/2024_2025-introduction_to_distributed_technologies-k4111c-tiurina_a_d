@@ -34,7 +34,7 @@ Date of finished:
 ![Screenshot 6](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/6.jpg)  
 Рисунок 6 - Применение манифеста  
 Проверяем  появление Pod, используя команду kubectl get pods. (Рис. 7)  
-![Screenshot 7]()    
+![Screenshot 7](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/7.jpg)     
 Рисунок 7 - Проверка Pod   
 Добавляем сервис для доступа к созданному контейнеру. (Рис. 8)  
 ![Screenshot 8]()   
