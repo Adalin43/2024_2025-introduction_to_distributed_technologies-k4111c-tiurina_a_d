@@ -10,4 +10,4 @@
         image: hashicorp/vault
         ports:
             - containerPort: 8200
-            name: http
+        
