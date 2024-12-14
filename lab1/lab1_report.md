@@ -28,7 +28,7 @@ Date of finished:
 ![Screenshot 4](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/4.jpg)    
 Рисунок 4 - Проверка корректного создания контейнера   
 Создаем yaml-файл для развертывания пода с полученным образом (Рис. 5).  
-![Screenshot 5]()  
+![Screenshot 5](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/5.jpg)   
 Рисунок 5 - Написание манифеста  
 
 
