@@ -37,7 +37,7 @@ Date of finished:
 ![Screenshot 7](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/7.jpg)     
 Рисунок 7 - Проверка Pod   
 Добавляем сервис для доступа к созданному контейнеру. (Рис. 8)  
-![Screenshot 8]()   
+![Screenshot 8](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/8.jpg)   
 Рисунок 8 - Создание сервиса для доступа к контейнеру  
 Команда minikube kubectl -- port-forward service/vault 8200:8200 позволяет minikube прокинуть порт компьютера в контейнер. Теперь можно зайти в Vault по ссылке http://localhost:8200. С помощью команды minikube kubectl -- logs service/vault находим токен для авторизации. (Рис. 9) 
 ![Screenshot 9]()  
