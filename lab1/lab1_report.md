@@ -40,7 +40,7 @@ Date of finished:
 ![Screenshot 8](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/8.jpg)   
 Рисунок 8 - Создание сервиса для доступа к контейнеру  
 Команда minikube kubectl -- port-forward service/vault 8200:8200 позволяет minikube прокинуть порт компьютера в контейнер. Теперь можно зайти в Vault по ссылке http://localhost:8200. С помощью команды minikube kubectl -- logs service/vault находим токен для авторизации. (Рис. 9) 
-![Screenshot 9]()  
+![Screenshot 9](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/9.jpg)  
 Рисунок 9 - Поиск токена для авторизации   
 Unseal Key: rZCttPCTCaLgYZO/kbTYi2G5h5syNZEoMz0ydcdsQlY=  
 Root Token: hvs.IKwqwYCfpsBLOaMOMh9WSlEr  
