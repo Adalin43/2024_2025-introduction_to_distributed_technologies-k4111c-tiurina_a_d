@@ -19,7 +19,7 @@ Date of finished:
 ![Screenshot 1](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/1.jpg)   
 Рисунок 1 - Использование команды minikube start  
 Далее скачиваем образ (Рис. 2).  
-![Screenshot 2]()   
+![Screenshot 2](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/2.jpg)   
 Рисунок 2 - Скачивание образа HashiCorp Vault  
 Создаем контейнер на основе образа (Рис. 3).  
 ![Screenshot 3]()   
