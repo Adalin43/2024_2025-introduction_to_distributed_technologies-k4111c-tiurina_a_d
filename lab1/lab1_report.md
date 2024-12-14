@@ -17,10 +17,10 @@ Date of finished:
 **Ход работы.**  
 Устанавливаем Docker и Minikube на рабочий компьютер. После установки необходимо развернуть minikube cluster с помощью команды minikube start (Рис. 1).    
 ![Screenshot 1](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/1.jpg)   
-                              Рисунок 1 - Использование команды minikube start  
+Рисунок 1 - Использование команды minikube start  
 Далее скачиваем образ (Рис. 2).  
 ![Screenshot 2]()   
-                              Рисунок 2 - Скачивание образа HashiCorp Vault  
+Рисунок 2 - Скачивание образа HashiCorp Vault  
 Создаем контейнер на основе образа (Рис. 3).  
 ![Screenshot 3]()   
 Рисунок 3 - Создание контейнера на основе образа  
