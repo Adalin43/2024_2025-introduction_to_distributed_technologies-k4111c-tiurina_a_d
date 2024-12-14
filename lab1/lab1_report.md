@@ -41,8 +41,10 @@ Date of finished:
 Рисунок 8 - Создание сервиса для доступа к контейнеру  
 Команда minikube kubectl -- port-forward service/vault 8200:8200 позволяет minikube прокинуть порт компьютера в контейнер. Теперь можно зайти в Vault по ссылке http://localhost:8200. С помощью команды minikube kubectl -- logs service/vault находим токен для авторизации. (Рис. 9) 
 ![Screenshot 9]()  
-Рисунок 9 - Поиск токена для авторизации  
-Далее вводим токен на странице http://localhost:8200. (Рис.10)  
+Рисунок 9 - Поиск токена для авторизации   
+Unseal Key: mtSIW6Ic4Ngvtsh8DKKFOPWfdc3pD6jMRvhN9vmrJs8=  
+Root Token: hvs.pNb6CW61M3PDWTvITHrttAY0  
+Далее вводим токен на странице http://localhost:8200. (Рис.10)   
 ![Screenshot 10]()   
 Рисунок 10 - Страница авторизации  
 Произведена успешная авторизация. (Рис. 11)  
