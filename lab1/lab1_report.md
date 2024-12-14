@@ -45,7 +45,7 @@ Date of finished:
 Unseal Key: rZCttPCTCaLgYZO/kbTYi2G5h5syNZEoMz0ydcdsQlY=  
 Root Token: hvs.IKwqwYCfpsBLOaMOMh9WSlEr  
 Далее вводим токен на странице http://localhost:8200. (Рис.10)   
-![Screenshot 10]()   
+![Screenshot 10](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/10.jpg)   
 Рисунок 10 - Страница авторизации  
 Произведена успешная авторизация. (Рис. 11)  
 ![Screenshot 11](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/11.jpg)
