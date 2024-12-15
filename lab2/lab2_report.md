@@ -26,6 +26,9 @@ Date of finished:
 Проверяем, что контейнер на основе скаченного ранее образа установлен с помощью команды docker ps -a. (Рис. 4)  
 ![Screenshot 4](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/4.jpg)   
 Рисунок 4 - Проверка созданного контейнера на основе скаченного ранее образа   
+Далее запускаем Minikube, используя команду minikube start. (Рис. 5)  
+![Screenshot 5]()   
+Рисунок 5 - Запуск Minikube  
 
 
 Создаем deployment с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и передаем переменные в эти реплики: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME.   
