@@ -15,7 +15,7 @@ Date of finished:
 Ознакомиться с типами "контроллеров" развертывания контейнеров, ознакомиться с сетевыми сервисами и развернуть свое веб приложение.   
 **Ход работы.**  
 Скачиваем образ ifilyaninitmo/itdt-contained-frontend:master с помощью команды docker pull ifilyaninitmo/itdt-contained-frontend:master. (Рис. 1)  
-![Screenshot 1]()   
+![Screenshot 1](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/1.jpg)   
 Рисунок 1 - Скачивание образа  
 Проверяем, что образ корректно установлен. (Рис. 2)  
 ![Screenshot 2]()   
