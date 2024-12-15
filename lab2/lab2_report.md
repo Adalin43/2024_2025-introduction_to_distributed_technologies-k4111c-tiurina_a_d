@@ -27,7 +27,7 @@ Date of finished:
 ![Screenshot 4](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/4.jpg)   
 Рисунок 4 - Проверка созданного контейнера на основе скаченного ранее образа   
 Далее запускаем Minikube, используя команду minikube start. (Рис. 5)  
-![Screenshot 5]()   
+![Screenshot 5](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/5.jpg)   
 Рисунок 5 - Запуск Minikube  
 
 
