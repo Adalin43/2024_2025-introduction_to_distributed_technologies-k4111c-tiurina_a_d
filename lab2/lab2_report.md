@@ -24,7 +24,7 @@ Date of finished:
 ![Screenshot 3](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/3.jpg)   
 Рисунок 3 - Создание образа на основе скаченного образа  
 Проверяем, что контейнер на основе скаченного ранее образа установлен с помощью команды docker ps -a. (Рис. 4)  
-![Screenshot 4]()   
+![Screenshot 4](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/4.jpg)   
 Рисунок 4 - Проверка созданного контейнера на основе скаченного ранее образа   
 
 
