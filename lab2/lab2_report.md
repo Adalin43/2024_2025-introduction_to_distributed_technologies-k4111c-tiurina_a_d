@@ -18,7 +18,7 @@ Date of finished:
 ![Screenshot 1](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/1.jpg)   
 Рисунок 1 - Скачивание образа  
 Проверяем, что образ корректно установлен. (Рис. 2)  
-![Screenshot 2]()   
+![Screenshot 2](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/2.jpg)   
 Рисунок 2 - Проверка установки образа   
 Далее создаем контейнер на основе скаченного образа. (Рис. 3)  
 ![Screenshot 3]()   
