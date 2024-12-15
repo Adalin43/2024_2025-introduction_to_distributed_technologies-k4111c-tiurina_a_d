@@ -29,10 +29,9 @@ Date of finished:
 Далее запускаем Minikube, используя команду minikube start. (Рис. 5)  
 ![Screenshot 5](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/5.jpg)   
 Рисунок 5 - Запуск Minikube  
-
-
-Создаем deployment с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и передаем переменные в эти реплики: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME.   
-
+Далее создаем deployment с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и передаем переменные в эти реплики: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME. (Рис. 6)     
+![Screenshot 6](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/6.jpg)   
+Рисунок 6 - Создание файла laboratory2.yaml   
 Создаем сервис, через который будет доступ на эти "поды". ((((Выбор типа сервиса остается на ваше усмотрение.))))   
 
 Запускаем в minikube режим проброса портов и подключаемся к нашим контейнерам через веб браузер.   
