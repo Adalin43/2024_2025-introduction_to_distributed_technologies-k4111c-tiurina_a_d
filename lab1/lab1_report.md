@@ -52,7 +52,7 @@ Root Token: hvs.IKwqwYCfpsBLOaMOMh9WSlEr
 Рисунок 11 - Успешная авторизация  
 Останавливаем Minikube с помощью команды minikube stop.  
 Схема организации контейнеров и сервисов представлена на рисунке 12.  
-![Screenshot 12]()    
+![Screenshot 12](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/12.jpg)    
 Рисунок 12 - Схема организации сервисов и контейнеров  
 
 
