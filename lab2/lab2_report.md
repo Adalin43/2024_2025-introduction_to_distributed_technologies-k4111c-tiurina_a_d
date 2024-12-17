@@ -45,13 +45,14 @@ Date of finished:
 ![Screenshot 10](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/10.jpg)   
 Рисунок 10 - Проброс портов  
 Подключаемся к контейнерам через веб-браузер. (Рис. 11)   
-![Screenshot 11]()  
-Рисунок 11 - Подключение к контейнерам через веб-браузер   
-Запускаем в minikube режим проброса портов и подключаемся к нашим контейнерам через веб браузер.   
-
-Проверяем на странице в веб браузере переменные REACT_APP_USERNAME, REACT_APP_COMPANY_NAME и Container name. ((((Изменяются ли они? Если да то почему?))))    
-
-Проверяем логи контейнеров.   
+![Screenshot 11](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/11.jpg)    
+Рисунок 11 - Подключение к контейнерам через веб-браузер    
+С помощью команды minikube kubectl get pods определяем, что у нас есть 2 пода: frontend-7bbd5v9b75-b9bym и frontend-7bbd5v9b75-z4bcv. Проверяем логи контейнеров. (Рис. 12)   
+![Screenshot 12]()    
+Рисунок 12 - Логи контейнеров  
+Схема организации контейнеров и сервисов представлена на рисунке 13.  
+![Screenshot 13]()    
+Риснок 13 - Схема организации контейнеров и сервисов   
 
 **Результаты лабораторной работы.**   
 - Файлы с разработанными манифестами с расширением .yaml.  
