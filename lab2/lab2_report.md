@@ -39,8 +39,9 @@ Date of finished:
 ![Screenshot 8](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/8.jpg)    
 Рисунок 8 - Проверка добавления deployment   
 Создаем сервис, через который будет доступ на эти "поды". (Рис. 9)  
-![Screenshot 9]()    
+![Screenshot 9](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/9.jpg)    
 Рисунок 9 - Создание сервиса  
+Далее применяем его с помощью команды minikube kubectl -- apply -f service.yaml service/frontend-service created.  
 
 Запускаем в minikube режим проброса портов и подключаемся к нашим контейнерам через веб браузер.   
 
