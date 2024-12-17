@@ -21,16 +21,18 @@ Date of finished:
 [![Screenshot 2](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab3/imagine/2.jpg)     
 Рисунок 2 - Применение созданного манифеста   
 Проверяем, что манифест применен. (Рис. 3)   
-[![Screenshot 3]() 
+[![Screenshot 3](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab3/imagine/3.jpg) 
 Риснок 3 - Проверка применения манифеста   
 Создаем replicaSet с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и, используя ранее созданный configMap, передаем переменные REACT_APP_USERNAME, REACT_APP_COMPANY_NAME. (Рис. 4, 5)    
-![Screenshot 4]()   
+![Screenshot 4](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab3/imagine/4.jpg)   
 Рисунок 4 - Написание манифеста для ReplicaSet   
-![Screenshot 5]()   
-Рисунок 5 - Применение написанного манифеста      
-Проверяем с помощью команды minikube kubectl -- get replicasets, что написанный манифест применен. (Рис. 6)   
-Рисунок 6 - Проверка применения манифеста     
+![Screenshot 5](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab3/imagine/5.jpg)    
+Рисунок 5 - Применение написанного манифеста       
+Проверяем с помощью команды minikube kubectl -- get replicasets, что написанный манифест применен. (Рис. 6)    
+![Screenshot 6]()    
+Рисунок 6 - Проверка применения манифеста      
 Далее используем команду minikube addons enable ingress, которая позволит использовать Ingress. (Рис. 7)   
+![Screenshot 7](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab3/imagine/7.jpg)   
 Рисунок 7 - Использование команды minikube addons enable ingress     
 
 
