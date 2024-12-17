@@ -35,6 +35,9 @@ Date of finished:
 Применяем созданный манифест для создания реплик. (Рис. 7)   
 ![Screenshot 7](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/7.jpg)   
 Рисунок 7 - Применение написанного манифеста    
+Проверяем добавление deployment. (Рис. 8)   
+![Screenshot 8]()    
+Рисунок 8 - проверка добавления deployment   
 
 
 Создаем сервис, через который будет доступ на эти "поды". ((((Выбор типа сервиса остается на ваше усмотрение.))))   
