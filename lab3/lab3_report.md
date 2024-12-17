@@ -29,7 +29,7 @@ Date of finished:
 ![Screenshot 5](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab3/imagine/5.jpg)    
 Рисунок 5 - Применение написанного манифеста       
 Проверяем с помощью команды minikube kubectl -- get replicasets, что написанный манифест применен. (Рис. 6)    
-![Screenshot 6]()    
+![Screenshot 6](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab3/imagine/6.jpg)    
 Рисунок 6 - Проверка применения манифеста      
 Далее используем команду minikube addons enable ingress, которая позволит использовать Ingress. (Рис. 7)   
 ![Screenshot 7](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab3/imagine/7.jpg)   
