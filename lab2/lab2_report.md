@@ -48,11 +48,11 @@ Date of finished:
 ![Screenshot 11](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/11.jpg)    
 Рисунок 11 - Подключение к контейнерам через веб-браузер    
 С помощью команды minikube kubectl get pods определяем, что у нас есть 2 пода: frontend-7bbd5v9b75-b9bym и frontend-7bbd5v9b75-z4bcv. Проверяем логи контейнеров. (Рис. 12)   
-![Screenshot 12]()    
-Рисунок 12 - Логи контейнеров  
-Схема организации контейнеров и сервисов представлена на рисунке 13.  
-![Screenshot 13]()    
-Риснок 13 - Схема организации контейнеров и сервисов   
+![Screenshot 12](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/12.jpg)    
+Рисунок 12 - Логи контейнеров   
+Схема организации контейнеров и сервисов представлена на рисунке 13.   
+![Screenshot 13]()      
+Риснок 13 - Схема организации контейнеров и сервисов    
 
 **Результаты лабораторной работы.**   
 - Файлы с разработанными манифестами с расширением .yaml.  
