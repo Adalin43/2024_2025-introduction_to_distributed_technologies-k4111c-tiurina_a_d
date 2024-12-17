@@ -33,27 +33,25 @@ Date of finished:
 Применяем манифест, используя команду kubectl apply -f laboratory1.yaml. (Рис. 6)  
 ![Screenshot 6](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/6.jpg)   
 Рисунок 6 - Применение манифеста  
-Проверяем  появление Pod, используя команду minikube kubectl -- get pods. (Рис. 7)  
-![Screenshot 7](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/7.jpg)     
-Рисунок 7 - Проверка Pod   
-Добавляем сервис для доступа к созданному контейнеру. (Рис. 8)  
-![Screenshot 8](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/8.jpg)   
-Рисунок 8 - Создание сервиса для доступа к контейнеру  
-Команда minikube kubectl -- port-forward service/vault 8200:8200 позволяет minikube прокинуть порт компьютера в контейнер. Теперь можно зайти в Vault по ссылке http://localhost:8200. С помощью команды minikube kubectl -- logs service/vault находим токен для авторизации. (Рис. 9) 
-![Screenshot 9](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/9.jpg)  
-Рисунок 9 - Поиск токена для авторизации   
+Проверяем  появление Pod, используя команду minikube kubectl -- get pods.  
+Добавляем сервис для доступа к созданному контейнеру. (Рис. 7)  
+![Screenshot 7](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/8.jpg)   
+Рисунок 7 - Создание сервиса для доступа к контейнеру  
+Команда minikube kubectl -- port-forward service/vault 8200:8200 позволяет minikube прокинуть порт компьютера в контейнер. Теперь можно зайти в Vault по ссылке http://localhost:8200. С помощью команды minikube kubectl -- logs service/vault находим токен для авторизации. (Рис. 8) 
+![Screenshot 8](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/9.jpg)  
+Рисунок 8 - Поиск токена для авторизации   
 Unseal Key: rZCttPCTCaLgYZO/kbTYi2G5h5syNZEoMz0ydcdsQlY=  
 Root Token: hvs.IKwqwYCfpsBLOaMOMh9WSlEr  
-Далее вводим токен на странице http://localhost:8200. (Рис.10)   
-![Screenshot 10](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/10.jpg)   
-Рисунок 10 - Страница авторизации  
-Произведена успешная авторизация. (Рис. 11)  
-![Screenshot 11](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/11.jpg)
-Рисунок 11 - Успешная авторизация  
+Далее вводим токен на странице http://localhost:8200. (Рис. 9)   
+![Screenshot 9](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/10.jpg)   
+Рисунок 9 - Страница авторизации  
+Произведена успешная авторизация. (Рис. 10)  
+![Screenshot 10](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/11.jpg)
+Рисунок 10 - Успешная авторизация  
 Останавливаем Minikube с помощью команды minikube stop.  
-Схема организации контейнеров и сервисов представлена на рисунке 12.  
-![Screenshot 12](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/12.jpg)    
-Рисунок 12 - Схема организации сервисов и контейнеров 
+Схема организации контейнеров и сервисов представлена на рисунке 11.  
+![Screenshot 11](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab1/imagine/12.jpg)    
+Рисунок 11 - Схема организации сервисов и контейнеров 
   
 **Результат данной работы:**  
 - Файл с разработанным манифестом для развертывания "пода" с расширением .yaml.  
