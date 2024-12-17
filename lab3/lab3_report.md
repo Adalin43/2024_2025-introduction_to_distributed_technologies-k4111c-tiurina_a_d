@@ -16,7 +16,7 @@ Date of finished:
 **Ход работы.**   
 Создаем configMap с переменными: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME. Манифест для создания configMap записан в файле с расширением .yaml. (Рис. 1)  
 ![Screenshot 1]()   
-Рисунок 1 - Создание configMap   
+Рисунок 1 - Создание манифеста для configMap   
 
   
 
