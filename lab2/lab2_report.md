@@ -51,7 +51,7 @@ Date of finished:
 ![Screenshot 12](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/12.jpg)    
 Рисунок 12 - Логи контейнеров   
 Схема организации контейнеров и сервисов представлена на рисунке 13.   
-![Screenshot 13]()      
+![Screenshot 13](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/13.jpg)      
 Риснок 13 - Схема организации контейнеров и сервисов    
 
 **Результаты лабораторной работы.**   
