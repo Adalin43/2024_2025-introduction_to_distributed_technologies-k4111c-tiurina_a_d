@@ -33,7 +33,7 @@ Date of finished:
 ![Screenshot 6](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/6.jpg)   
 Рисунок 6 - Создание файла laboratory2.yaml   
 Применяем созданный манифест для создания реплик. (Рис. 7)   
-![Screenshot 7]()
+![Screenshot 7](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/7.jpg)   
 Рисунок 7 - Применение написанного манифеста    
 
 
