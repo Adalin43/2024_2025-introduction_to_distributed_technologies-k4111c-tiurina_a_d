@@ -36,11 +36,11 @@ Date of finished:
 ![Screenshot 7](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/7.jpg)   
 Рисунок 7 - Применение написанного манифеста    
 Проверяем добавление deployment. (Рис. 8)   
-![Screenshot 8]()    
-Рисунок 8 - проверка добавления deployment   
-
-
-Создаем сервис, через который будет доступ на эти "поды". ((((Выбор типа сервиса остается на ваше усмотрение.))))   
+![Screenshot 8](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/8.jpg)    
+Рисунок 8 - Проверка добавления deployment   
+Создаем сервис, через который будет доступ на эти "поды". (Рис. 9)  
+![Screenshot 9]()    
+Рисунок 9 - Создание сервиса  
 
 Запускаем в minikube режим проброса портов и подключаемся к нашим контейнерам через веб браузер.   
 
