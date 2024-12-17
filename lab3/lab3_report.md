@@ -14,7 +14,9 @@ Date of finished:
 **Цель работы.**  
 Познакомиться с сертификатами и "секретами" в Minikube, правилами безопасного хранения данных в Minikube.   
 **Ход работы.**   
-Создаем configMap с переменными: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME.   
+Создаем configMap с переменными: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME. Манифест для создания configMap записан в файле с расширением .yaml. (Рис. 1)  Рисунок 1 - Создание configMap   
+
+  
 
 Создаем replicaSet с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и, используя ранее созданный configMap, передаем переменные REACT_APP_USERNAME, REACT_APP_COMPANY_NAME.    
 
