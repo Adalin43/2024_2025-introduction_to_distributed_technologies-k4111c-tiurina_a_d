@@ -32,6 +32,11 @@ Date of finished:
 Далее создаем deployment с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и передаем переменные в эти реплики: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME. (Рис. 6)     
 ![Screenshot 6](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/6.jpg)   
 Рисунок 6 - Создание файла laboratory2.yaml   
+Применяем созданный манифест для создания реплик. (Рис. 7)   
+![Screenshot 7]()
+Рисунок 7 - Применение написанного манифеста    
+
+
 Создаем сервис, через который будет доступ на эти "поды". ((((Выбор типа сервиса остается на ваше усмотрение.))))   
 
 Запускаем в minikube режим проброса портов и подключаемся к нашим контейнерам через веб браузер.   
