@@ -20,13 +20,20 @@ Date of finished:
 Применяем созданный манифест с помощью команды minikube kubectl -- apply -f config.map.yaml. (Рис. 2)   
 [![Screenshot 2](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab3/imagine/2.jpg)     
 Рисунок 2 - Применение созданного манифеста   
-Проверяем, что манифест применен. (Рис. три)   
-[![Screenshot 3](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab3/imagine/third.jpg)  
-Создаем replicaSet с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и, используя ранее созданный configMap, передаем переменные REACT_APP_USERNAME, REACT_APP_COMPANY_NAME. (Рис. 3, 4)    
-![Screenshot 3](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab3/imagine/3.jpg)   
-Рисунок 3 - Написание манифеста для ReplicaSet   
-![Screenshot 4](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab3/imagine/4.jpg)   
-Рисунок 4 - Применение написанного манифеста     
+Проверяем, что манифест применен. (Рис. 3)   
+[![Screenshot 3]() 
+Риснок 3 - Проверка применения манифеста   
+Создаем replicaSet с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и, используя ранее созданный configMap, передаем переменные REACT_APP_USERNAME, REACT_APP_COMPANY_NAME. (Рис. 4, 5)    
+![Screenshot 4]()   
+Рисунок 4 - Написание манифеста для ReplicaSet   
+![Screenshot 5]()   
+Рисунок 5 - Применение написанного манифеста      
+Проверяем с помощью команды minikube kubectl -- get replicasets, что написанный манифест применен. (Рис. 6)   
+Рисунок 6 - Проверка применения манифеста     
+Далее используем команду minikube addons enable ingress, которая позволит использовать Ingress. (Рис. 7)   
+Рисунок 7 - Использование команды minikube addons enable ingress     
+
+
 
 Включаем minikube addons enable ingress и генерируем TLS-сертификат, импортируем сертификат в minikube.    
 
