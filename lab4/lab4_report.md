@@ -37,15 +37,28 @@ Date of finished:
 На рисунке 8 видно, что IPPool'ы корректно созданы.   
 ![Screenshot 8](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab4/image/8.jpg)     
 Рисунок 8 - Корретное создание IPPool
+Создаем манифест Deployment и Service. (Рис. 9, 10)     
+![Screenshot 9](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab4/image/9.jpg)     
+Рисунок 9 - Создание манифеста Deployment     
+![Screenshot 10](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab4/image/10.jpg)     
+Рисунок 10 - Создание манифеста Service     
+Далее применяем написанные манифесты и производим их проверку. (Рис. 11)     
+![Screenshot 11](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab4/image/11.jpg)     
+Рисунок 11 - Применение написанных манифестов и осуществление их проверки    
+Осуществляем подключение к контейнерам, пробросив порты. (Рис. 12)    
+![Screenshot 12](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab4/image/12.jpg)     
+Рисунок 12 - Проброс портов     
+Подключаемся к веб-сайту. (Рис. 13)   
+![Screenshot 13](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab4/image/13.jpg)     
+Рисунок 13 - Подключение к веб-сайту   
+Отправляем эхо-запросы, используя команду kubectl exec deployment-977pld6b9-6b67p -- ping 10.244.117.110. (Рис. 14)  
+![Screenshot 14](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab4/image/14.jpg)        
+Рисунок 14 - Отправка эхо-запросов     
+Схема организации контейнеров и сервисов представлена на рисунке 15.   
+![Screenshot 15](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab4/image/15.jpg)        
+Рисунок 15 - Схема организации контейнеров и сервисов       
 
-
-Создаем deployment с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и передаем переменные в эти реплики: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME.    
-Создаем сервис, через который будет доступ на эти "поды".    
-Запускаем в minikube режим проброса портов и подключаемся к контейнерам через веб-браузер.     
-Проверяем на странице в веб-браузере переменные Container name и Container IP.      
-Используя kubectl exec, заходим в любой "под" и попробуем попинговать "поды", используя FQDN имя соседенего "пода".   
-
-**Результаты лабораторной работы.**       
-- Файлы с разработанными манифестами с расширением .yaml.    
-- Схема организации контейеров и сервисов, нарисованная в draw.io.   
-- Скриншоты c результатами работы.  
+**Результаты лабораторной работы.**          
+- Файлы с разработанными манифестами с расширением .yaml.     
+- Схема организации контейеров и сервисов, нарисованная в draw.io.    
+- Скриншоты c результатами работы.   
