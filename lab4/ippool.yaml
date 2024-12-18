@@ -3,7 +3,7 @@ kind: IPPool
 metadata:
    name: zone-east-ippool
 spec:
-   cidr: 192.168.0.0/24
+   cidr: 192.168.10.0/24
    ipipMode: Always
    natOutgoing: true
    nodeSelector: zone == "east"
@@ -13,7 +13,7 @@ kind: IPPool
 metadata:
    name: zone-west-ippool
 spec:
-   cidr: 192.168.1.0/24
+   cidr: 192.168.20.0/24
    ipipMode: Always
    natOutgoing: true
    nodeSelector: zone == "west"
