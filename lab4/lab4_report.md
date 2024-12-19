@@ -49,7 +49,7 @@ Date of finished:
 ![Screenshot 12](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab4/image/12.jpg)     
 Рисунок 12 - Проброс портов     
 Подключаемся к веб-сайту. (Рис. 13)   
-![Screenshot 13](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab4/image/13.jpg)     
+![Screenshot 13](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab4/image/result.jpg)     
 Рисунок 13 - Подключение к веб-сайту   
 Отправляем эхо-запросы, используя команду kubectl exec deployment-977pld6b9-6b67p -- ping 10.244.117.110. (Рис. 14)  
 ![Screenshot 14](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab4/image/14.jpg)        
