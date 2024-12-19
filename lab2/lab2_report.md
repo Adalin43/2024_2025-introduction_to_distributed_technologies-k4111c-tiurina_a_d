@@ -45,10 +45,10 @@ Date of finished:
 ![Screenshot 10](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/10.jpg)   
 Рисунок 10 - Прменение манифеста    
 Далее пробрасываем порты для доступа к контейнерам через веб-браузер. (Рис. 11)  
-![Screenshot 11](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/11.jpg)   
+![Screenshot 11](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/12.jpg)   
 Рисунок 11 - Проброс портов  
 Подключаемся к контейнерам через веб-браузер. (Рис. 12)   
-![Screenshot 12](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/12.jpg)    
+![Screenshot 12](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/11.jpg)    
 Рисунок 12 - Подключение к контейнерам через веб-браузер    
 С помощью команды minikube kubectl get pods определяем, что у нас есть 2 пода. (Рис. 13)   
 ![Screenshot 13](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/13.jpg)    
