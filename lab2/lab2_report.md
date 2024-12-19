@@ -41,18 +41,24 @@ Date of finished:
 Создаем сервис, через который будет доступ на эти "поды". (Рис. 9)  
 ![Screenshot 9](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/9.jpg)    
 Рисунок 9 - Создание сервиса  
-Применяем его с помощью команды minikube kubectl -- apply -f service.yaml. Далее пробрасываем порты для доступа к контейнерам через веб-браузер. (Рис. 10)  
+Применяем его с помощью команды minikube kubectl -- apply -f service.yaml. (Рис. 10)    
 ![Screenshot 10](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/10.jpg)   
-Рисунок 10 - Проброс портов  
+Рисунок 10 - Прменение манифеста    
+Далее пробрасываем порты для доступа к контейнерам через веб-браузер. (Рис. 11)  
+![Screenshot 11](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/10.jpg)   
+Рисунок 11 - Проброс портов  
 Подключаемся к контейнерам через веб-браузер. (Рис. 11)   
 ![Screenshot 11](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/11.jpg)    
 Рисунок 11 - Подключение к контейнерам через веб-браузер    
-С помощью команды minikube kubectl get pods определяем, что у нас есть 2 пода: frontend-7bbd5v9b75-b9bym и frontend-7bbd5v9b75-z4bcv. Проверяем логи контейнеров. (Рис. 12)   
+С помощью команды minikube kubectl get pods определяем, что у нас есть 2 пода. (Рис. 12)   
 ![Screenshot 12](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/12.jpg)    
-Рисунок 12 - Логи контейнеров   
-Схема организации контейнеров и сервисов представлена на рисунке 13.   
-![Screenshot 13](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/13.jpg)      
-Риснок 13 - Схема организации контейнеров и сервисов    
+Рисунок 12 - Результат команды minikube kubectl get pods   
+Проверяем логи контейнеров. (Рис. 13)    
+![Screenshot 13](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/12.jpg)    
+Рисунок 13 - Логи контейнеров   
+Схема организации контейнеров и сервисов представлена на рисунке 14.   
+![Screenshot 14](https://github.com/Adalin43/2024_2025-introduction_to_distributed_technologies-k4111c-tiurina_a_d/blob/main/lab2/imagine/13.jpg)      
+Риснок 14 - Схема организации контейнеров и сервисов    
 
 **Результаты лабораторной работы.**   
 - Файлы с разработанными манифестами с расширением .yaml.  
