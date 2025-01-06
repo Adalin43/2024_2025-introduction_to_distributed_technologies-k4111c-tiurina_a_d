@@ -6,7 +6,7 @@ Group: K4111c
 Author: Tiurina Alina Dmitrievna    
 Lab: Lab3   
 Date of create: 07.12.2024    
-Date of finished:    
+Date of finished: 21.12.2024        
 **Лабораторная работа №3.**    
 **Сертификаты и "секреты" в Minikube, безопасное хранение данных.**   
 **Описание.**    
