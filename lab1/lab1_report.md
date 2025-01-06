@@ -6,7 +6,7 @@ Group: K4111c
 Author: Tiurina Alina Dmitrievna  
 Lab: Lab1  
 Date of create: 07.12.2024  
-Date of finished:   
+Date of finished: 21.12.2024    
 
 **Лабораторная работа №1.  
 Установка Docker и Minikube, мой первый манифест.**  
