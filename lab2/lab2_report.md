@@ -6,7 +6,7 @@ Group: K4111c
 Author: Tiurina Alina Dmitrievna  
 Lab: Lab2  
 Date of create: 07.12.2024  
-Date of finished:   
+Date of finished: 21.12.2024       
 **Лабораторная работа №2.**    
 **Развертывание веб сервиса в Minikube, доступ к веб интерфейсу сервиса. Мониторинг сервиса.**   
 **Описание.**  
